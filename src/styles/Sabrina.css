@@ -1,0 +1,221 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Fondo general */
+.sabrina-fondo {
+  background: #fdc6eb;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Cabecera */
+.sabrina-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+}
+
+.sabrina-banner {
+  background-color: #8e24aa;
+  padding: 2rem 4rem;
+  border-radius: 100px;
+  color: white;
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.sabrina-banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sabrina-subtitulo {
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+  font-weight: 300;
+  color: #f8f8f8;
+}
+
+/* Títulos */
+.sabrina-titulo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #8e24aa;
+  margin: 2rem auto 1.5rem auto;
+}
+
+/* Sobre mí */
+.sabrina-sobre-mi {
+  background-color: rgb(255, 245, 254);
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto 2rem auto;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.sabrina-foto {
+  width: 180px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sabrina-descripcion {
+  flex: 1;
+  font-size: 1rem;
+  color: #222;
+  line-height: 1.8;
+  text-align: left;
+}
+
+/* Habilidades e intereses */
+.sabrina-habilidades-intereses {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.sabrina-bloque {
+  background-color: rgb(255, 245, 254);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  width: 300px;
+}
+
+.sabrina-bloque h3 {
+  color: #6a1b9a;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.sabrina-bloque ul {
+  padding-left: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Proyectos */
+.sabrina-contenedor-proyectos {
+  max-width: 1000px;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.sabrina-proyecto {
+  background-color: rgb(255, 245, 254);
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sabrina-proyecto:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35), 0 0 20px rgba(138, 43, 226, 0.45);
+}
+
+.sabrina-proyecto h2 {
+  color: #8e1bc4;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.sabrina-proyecto p {
+  color: #000000;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.sabrina-proyecto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Iconos de tecnologías */
+.sabrina-iconos {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 3rem auto 2rem auto;
+  max-width: 800px;
+}
+
+.sabrina-iconos img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+.sabrina-iconos img:hover {
+  transform: rotate(360deg);
+}
+
+/* Footer */
+.sabrina-footer {
+  background-color: #8e24aa;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sabrina-banner h1 {
+    font-size: 1.8rem;
+  }
+
+  .sabrina-subtitulo {
+    font-size: 1rem;
+  }
+
+  .sabrina-bloque,
+  .sabrina-proyecto {
+    width: 90%;
+  }
+
+  .sabrina-contenedor-proyectos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sabrina-sobre-mi {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sabrina-descripcion {
+    text-align: center;
+  }
+}

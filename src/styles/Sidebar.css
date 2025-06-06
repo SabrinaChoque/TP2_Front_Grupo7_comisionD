@@ -1,0 +1,50 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 160px;     
+  height: 100vh;   
+  background: linear-gradient(to bottom, #5b98d6, #c2dee2);
+  color: white;
+  z-index: 1000;  
+
+}
+.inicio, .contenedor-principal{
+  margin-left: 100px;
+  padding: 1rem;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Responsive: achicar en pantallas chicas */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100px;
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+
+  .sidebar h2 {
+    font-size: 1rem;
+  }
+
+  .sidebar li {
+    margin-bottom: 0.3rem;
+  }
+}

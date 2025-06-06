@@ -1,0 +1,36 @@
+.videojuegos h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.tarjetas-videojuegos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.tarjeta-juego {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.tarjeta-juego:hover {
+  transform: scale(1.03);
+}
+
+.tarjeta-juego h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.tarjeta-juego p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0.3rem 0;
+}
