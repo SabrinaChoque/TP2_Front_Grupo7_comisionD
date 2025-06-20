@@ -13,16 +13,16 @@ import sabrinaFoto from '../assets/sabrina.jpg';
 function Sabrina() {
   return (
     <>
-      <div className="sabrina-fondo">
-        <div className="sabrina-header">
+      <div className="sabrina-fondo animate__animated animate__fadeIn" style={{ animationDelay: "0.1s" }}>
+        <div className="sabrina-header animate__animated animate__fadeInDown" style={{ animationDelay: "0.2s" }}>
           <div className="sabrina-banner">
             <h1>Sabrina Choque</h1>
             <p className="sabrina-subtitulo">Futura Desarrolladora</p>
           </div>
         </div>
 
-        <h2 className="sabrina-titulo">Sobre mí</h2>
-        <div className="sabrina-sobre-mi">
+        <h2 className="sabrina-titulo animate__animated animate__fadeInUp" style={{ animationDelay: "0.3s" }}>Sobre mí</h2>
+        <div className="sabrina-sobre-mi animate__animated animate__fadeInUp" style={{ animationDelay: "0.4s" }}>
           <img src={sabrinaFoto} alt="Sabrina Choque" className="sabrina-foto" />
           <div className="sabrina-descripcion">
             <p>Hola, mi nombre es Sabrina Choque, tengo 38 años, casada hace 11 años y tengo a mi niño que se llama Dante.</p>
@@ -34,9 +34,9 @@ function Sabrina() {
         </div>
 
         <main>
-          <h2 className="sabrina-titulo">Habilidades e intereses</h2>
+          <h2 className="sabrina-titulo animate__animated animate__fadeInUp" style={{ animationDelay: "0.5s" }}>Habilidades e intereses</h2>
 
-          <div className="sabrina-habilidades-intereses">
+          <div className="sabrina-habilidades-intereses animate__animated animate__fadeInUp" style={{ animationDelay: "0.6s" }}>
             <div className="sabrina-bloque">
               <h3>Habilidades</h3>
               <ul>
@@ -58,26 +58,26 @@ function Sabrina() {
             </div>
           </div>
 
-          <h2 className="sabrina-titulo">Proyectos destacados</h2>
+          <h2 className="sabrina-titulo animate__animated animate__fadeInUp" style={{ animationDelay: "0.7s" }}>Proyectos destacados</h2>
           <div className="sabrina-contenedor-proyectos">
-            <div className="sabrina-proyecto">
+            <div className="sabrina-proyecto animate__animated animate__fadeInUp" style={{ animationDelay: "0.8s" }}>
               <h2>Proyecto 1: Clínica Seprise</h2>
               <p>Aplicación de escritorio para gestionar turnos, pacientes, acreditación y stock.</p>
               <img src={clinica} alt="Proyecto Clínica" />
             </div>
-            <div className="sabrina-proyecto">
+            <div className="sabrina-proyecto animate__animated animate__fadeInUp" style={{ animationDelay: "0.9s" }}>
               <h2>Proyecto 2: Club Deportivo</h2>
               <p>App para gestionar socios, carnets y pagos en un club.</p>
               <img src={club} alt="Proyecto Club" />
             </div>
-            <div className="sabrina-proyecto">
+            <div className="sabrina-proyecto animate__animated animate__fadeInUp" style={{ animationDelay: "1s" }}>
               <h2>Proyecto 3: Inmobiliaria Alquilarte</h2>
               <p>Simulación de base de datos con JSON, CRUD y vistas con PUG.</p>
               <img src={inmobiliaria} alt="Proyecto Inmobiliaria" />
             </div>
           </div>
 
-          <div className="sabrina-iconos">
+          <div className="sabrina-iconos animate__animated animate__fadeInUp" style={{ animationDelay: "1.1s" }}>
             <img src={html} alt="HTML" />
             <img src={css} alt="CSS" />
             <img src={js} alt="JavaScript" />
@@ -86,7 +86,7 @@ function Sabrina() {
           </div>
         </main>
 
-        <footer className="sabrina-footer">
+        <footer className="sabrina-footer animate__animated animate__fadeInUp" style={{ animationDelay: "1.2s" }}>
           © 2025 Sabrina Choque. Todos los derechos reservados
         </footer>
       </div>

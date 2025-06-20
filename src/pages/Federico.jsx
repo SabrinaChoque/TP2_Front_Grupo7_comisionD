@@ -53,14 +53,14 @@ const Federico = () => {
   ];
 
   return (
-    <div className="federico-container">
-      <header className="federico-header">
+    <div className="federico-container animate__animated animate__fadeIn" style={{ animationDelay: "0.1s" }}>
+      <header className="federico-header animate__animated animate__fadeInDown" style={{ animationDelay: "0.2s" }}>
         <h1>Federico Manuel Castro Koppetsch</h1>
       </header>
 
       <main>
-        <h2>Sobre mí</h2>
-        <section className="sobre-mi">
+        <h2 className="animate__animated animate__fadeInUp" style={{ animationDelay: "0.3s" }}>Sobre mí</h2>
+        <section className="sobre-mi animate__animated animate__fadeInUp" style={{ animationDelay: "0.4s" }}>
           <img src={avatarFede} alt="Avatar de Federico" className="avatar" />
           <div>
             <p>
@@ -71,7 +71,7 @@ const Federico = () => {
           </div>
         </section>
 
-        <section>
+        <section className="animate__animated animate__fadeInUp" style={{ animationDelay: "0.5s" }}>
           <h2>Habilidades en programación</h2>
           <ul>
             {habilidades.map((hab, idx) => (
@@ -80,7 +80,7 @@ const Federico = () => {
           </ul>
         </section>
 
-        <section>
+        <section className="animate__animated animate__fadeInUp" style={{ animationDelay: "0.6s" }}>
           <h2>Proyectos</h2>
           <div className="proyectos-grid horizontal">
             {proyectos.map((proyecto, idx) => (
@@ -89,7 +89,7 @@ const Federico = () => {
           </div>
         </section>
 
-        <section>
+        <section className="animate__animated animate__fadeInUp" style={{ animationDelay: "0.7s" }}>
           <h2>Tecnologías que uso</h2>
           <div className="tecnologias-grid">
             {tecnologias.map((tech, idx) => (
@@ -102,7 +102,7 @@ const Federico = () => {
         </section>
       </main>
 
-      <footer>
+      <footer className="animate__animated animate__fadeInUp" style={{ animationDelay: "0.8s" }}>
         <p>&copy; 2025 Federico Castro</p>
       </footer>
     </div>

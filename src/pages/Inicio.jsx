@@ -35,13 +35,23 @@ function Inicio() {
 
   return (
     <div className="inicio">
-      <h1>Te damos la bienvenida a los Simuladores</h1>
-      <p>Somos el grupo 7 de comisión D. Este es nuestro trabajo práctico integrador de Desarrollo Frontend.</p>
+      <h1 className="animate__animated animate__backInDown">
+        Te damos la bienvenida a los Simuladores
+      </h1>
+      <p className="animate__animated animate__fadeIn" style={{ animationDelay: '0.5s' }}>
+        Somos el grupo 7 de comisión D. Este es nuestro trabajo práctico integrador de Desarrollo Frontend.
+      </p>
 
-      <h2>Conocé al equipo</h2>
+      <h2 className="animate__animated animate__fadeIn" style={{ animationDelay: '0.5s' }}>
+        Conocé al equipo
+      </h2>
       <div className="tarjetas">
-        {integrantes.map((int) => (
-          <div className="tarjeta" key={int.nombre}>
+        {integrantes.map((int, index) => (
+          <div
+           className="tarjeta"
+           key={int.nombre}
+           style={{ '--delay': `${index * 0.2}s` }}
+          >
             <img
               src={int.imagen}
               alt={int.nombre}

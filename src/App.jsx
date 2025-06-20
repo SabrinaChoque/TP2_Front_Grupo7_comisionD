@@ -8,7 +8,9 @@ import Alejandro from './pages/Alejandro';
 import VideoJuegos from './pages/VideoJuegos';
 import Api from './pages/Api';
 import Bitacora from './pages/Bitacora';
-import './App.css'; // tus estilos
+import './App.css';
+import 'animate.css';
+
 
 function App() {
   return (

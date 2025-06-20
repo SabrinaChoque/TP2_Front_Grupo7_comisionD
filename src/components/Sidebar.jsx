@@ -4,7 +4,7 @@ import '../styles/Sidebar.css';
 
 function Sidebar() {
   return (
-    <nav className="sidebar">
+    <nav className="sidebar animate__animated animate__fadeInLeft">
     <h2>Grupo 7</h2>
       <ul>
         <li><Link to="/">Inicio</Link></li>
