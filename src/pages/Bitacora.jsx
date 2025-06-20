@@ -30,15 +30,19 @@ function Bitacora() {
 
      <section>
   <h3>Aportes individuales</h3>
-    <p>
-  <strong>Sabrina:</strong> Se encargó de la estructura principal del proyecto en React, incluyendo:
-  la creación del componente <em>Sidebar</em>, la página de inicio con tarjetas de presentación de los integrantes, el componente <em>Videojuegos</em> que consume datos desde un archivo JSON, la sección de <em>API pública</em> conectada a Rick and Morty, y el armado general de la bitácora.
+  <p>
+    <strong>Sabrina:</strong> Se encargó de la estructura principal del proyecto en React, incluyendo:
+    la creación del componente <em>Sidebar</em>, la página de inicio con tarjetas de presentación de los integrantes, el componente <em>Videojuegos</em> que consume datos desde un archivo JSON, la sección de <em>API pública</em> conectada a Rick and Morty, y el armado general de la bitácora.
 
-  También propuso una estructura inicial para el archivo <code>data.json</code> con 5 videojuegos por integrante, aunque se dejó abierto a futuras modificaciones, ya que el diseño visual final será responsabilidad de Damián.
+    También propuso una estructura inicial para el archivo <code>data.json</code> con 5 videojuegos por integrante, aunque se dejó abierto a futuras modificaciones, ya que el diseño visual final será responsabilidad de Damián.
 
-  Durante la integración final con Vercel, detectó un error importante relacionado con el uso inconsistente de nombres de archivos y rutas (mayúsculas, minúsculas). Esto generó fallos al hacer deploy, ya que tanto React como Vercel son sensibles al uso correcto del <em>naming</em>. Para evitarlo, se recomienda seguir un estándar estricto como <code>camelCase</code> o <code>kebab-case</code> (con guiones) de forma consistente.
-</p>
+    Durante la integración final con Vercel, detectó un error importante relacionado con el uso inconsistente de nombres de archivos y rutas (mayúsculas, minúsculas). Esto generó fallos al hacer deploy, ya que tanto React como Vercel son sensibles al uso correcto del <em>naming</em>. Para evitarlo, se recomienda seguir un estándar estricto como <code>camelCase</code> o <code>kebab-case</code> (con guiones) de forma consistente.
 
+    <br /><br />
+    En la segunda parte del trabajo práctico, se enfocó en la sección que consume la API de Rick and Morty. Implementó la funcionalidad de paginación usando los botones "Anterior" y "Siguiente", gestionando el estado interno con React y controlando la navegación entre páginas de resultados.
+
+    Además, realizó mejoras visuales completas en esta sección, inspiradas en la estética de la serie. Aplicó un fondo con gradiente estilo “portal”, colores llamativos (verde neón, azul oscuro y cian brillante), y tipografías personalizadas (‘Permanent Marker’ y ‘Roboto’ desde Google Fonts). Se diseñaron tarjetas con borde colorido, animaciones suaves al pasar el cursor, y se ajustó el estilo del número de página para lograr mejor legibilidad y coherencia visual.
+    </p>
   <p>
    <strong>Damian:</strong> Como no comprendía cómo desarrollar el proyecto, realizó una simulación aparte desde cero para entender la estructura del mismo. Esto le permitió desenvolverse mejor con este nuevo desafio. Luego se encargó de su página correspondiente, a la cual le dio un estilo único y representativo, utilizando colores acordes al proyecto en cuestión. Asimismo, realizó un aporte a la plantilla de videojuegos, integrando un total de cinco ítems adicionales. Cada una de estas acciones fue planificada y ejecutada utilizando GitHub a través del uso de ramas, lo cual fue posible gracias a la colaboración y constante comunicación grupal, así como al esfuerzo individual.
   </p>
