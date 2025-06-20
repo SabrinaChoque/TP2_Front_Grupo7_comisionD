@@ -1,7 +1,16 @@
 .api-page {
+  background: linear-gradient(to bottom, #1b1b3a, #00ff9d); /* azul oscuro → verde portal */
   padding: 2rem;
-  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  font-family: 'Permanent Marker', cursive;
   text-align: center;
+}
+
+.api-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #4df2ff; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); 
 }
 
 .tarjetas-api {
@@ -13,16 +22,18 @@
 }
 
 .tarjeta-api {
-  background-color: #f4f4f4;
+  background-color: #5cafa0; 
+  border: 2px solid #00ff9d; 
   border-radius: 8px;
   width: 200px;
   padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
 }
 
 .tarjeta-api:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 255, 157, 0.5); 
 }
 
 .tarjeta-api img {
@@ -33,7 +44,18 @@
 .tarjeta-api h3 {
   margin: 0.5rem 0;
   font-size: 1.1rem;
+  color: #1b1b3a;
+  font-family: 'Permanent Marker', cursive;
+  font-style: normal;
 }
+
+.tarjeta-api p {
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
 .botones-paginado {
   display: flex;
   justify-content: center;
@@ -45,19 +67,27 @@
 .botones-paginado button {
   padding: 8px 16px;
   font-size: 16px;
-  background-color: #1826e7;
-  color: white;
+  background-color: #00ff9d; /* verde portal */
+  color: #1b1b3a; /* texto oscuro */
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-weight: bold;
 }
 
 .botones-paginado button:hover {
-  background-color: #51ece5;
+  background-color: #97eff5; 
 }
 
 .botones-paginado button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+.numero-pagina {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.3rem;
+  color: #1b1b3a;
+background: none;
+padding: 0;
 }

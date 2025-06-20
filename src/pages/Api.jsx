@@ -34,7 +34,7 @@ function Api() {
       <button onClick={() => setPage(page - 1)} disabled={!info.prev}>
         Anterior
       </button>
-      <span>Página {page}</span>
+      <span className="numero-pagina">Página {page}</span>
       <button onClick={() => setPage(page + 1)} disabled={!info.next}>
         Siguiente
       </button>
