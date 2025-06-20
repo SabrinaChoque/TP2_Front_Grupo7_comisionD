@@ -1,25 +1,86 @@
 .bitacora {
-  max-width: 800px;
-  margin: auto;
+  max-width: 900px;
+  margin: 2rem auto;
   padding: 2rem;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
+  background: linear-gradient(to bottom right, #ffffff, #f4f7fb);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2c3e50;
+  line-height: 1.7;
 }
 
 .bitacora h2 {
   text-align: center;
+  font-size: 2rem;
+  color: #1e3a5f;
   margin-bottom: 2rem;
+  position: relative;
+}
+
+.bitacora h2::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background: #3498db;
+  display: block;
+  margin: 0.5rem auto 0 auto;
+  border-radius: 5px;
 }
 
 .bitacora section {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.bitacora h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #34495e;
+  border-left: 4px solid #3498db;
+  padding-left: 0.75rem;
 }
 
 .bitacora ul {
-  padding-left: 1.2rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+  color: #2c3e50;
 }
 
-.bitacora p{
+.bitacora li {
+  margin-bottom: 0.4rem;
+}
+
+.bitacora p {
   text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.bitacora strong {
+  color: #0077cc;
+}
+
+.bitacora code {
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: Consolas, monospace;
+}
+
+@media (max-width: 768px) {
+  .bitacora {
+    padding: 1.2rem;
+  }
+
+  .bitacora h2 {
+    font-size: 1.6rem;
+  }
+
+  .bitacora h3 {
+    font-size: 1.1rem;
+  }
 }

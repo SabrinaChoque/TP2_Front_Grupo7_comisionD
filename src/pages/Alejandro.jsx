@@ -20,17 +20,17 @@ import SpringBootImagen from '../assets/SpringBootImagen.png';
 function Alejandro() {
   return (
     <>
-      <div className="caja-Alejandro">
+      <div className="caja-Alejandro animate__animated animate__fadeIn" style={{ animationDelay: "0.1s" }}>
         <div className="fondo-alejandro">
-          <header className="header-Alejandro">
+          <header className="header-Alejandro animate__animated animate__fadeInDown" style={{ animationDelay: "0.2s" }}>
             <div className="caja-nombre">
               <h1>Alejandro Ariel Cubas</h1>
             </div>
           </header>
 
           <main>
-            <h2>Sobre mí</h2>
-            <section className="sobre-Alejandro">
+            <h2 className="animate__animated animate__fadeInUp" style={{ animationDelay: "0.3s" }}>Sobre mí</h2>
+            <section className="sobre-Alejandro animate__animated animate__fadeInUp" style={{ animationDelay: "0.4s" }}>
               <img src={fotoAlejandro} alt="Imagen de Alejandro" className="avatar" />
               <div>
                 <p>
@@ -43,71 +43,59 @@ function Alejandro() {
               </div>
             </section>
 
-            <div className="titulo">Habilidades en programación</div>
+            <div className="titulo animate__animated animate__fadeInUp" style={{ animationDelay: "0.5s" }}>Habilidades en programación</div>
 
-            <div className="listado_habilidades">
-              <p className="parrafo_habilidades">
-                <ul>
-                  <li>JavaScript – conocimientos fundamentales de lógica, eventos y manipulación del DOM.</li>
-                  <li>Java – desarrollo orientado a objetos y aplicaciones robustas.</li>
-                  <li>Interfaces gráficas – creación de GUIs con Swing.</li>
-                  <li>Backend en Java – desarrollo con Servlets.</li>
-                  <li>Frameworks – aplicaciones avanzadas con Spring Boot 3 y autenticación con Spring Security.</li>
-                  <li>Node.js – desarrollo backend básico con Express.</li>
-                  <li>HTML y CSS – maquetado semántico y diseño adaptable con Flexbox y Grid.</li>
-                  <li>Base de datos – diseño e integración de sistemas con MySQL.</li>
-                </ul>
-              </p>
+            <div className="listado_habilidades animate__animated animate__fadeInUp" style={{ animationDelay: "0.6s" }}>
+              <ul>
+                <li>JavaScript – conocimientos fundamentales de lógica, eventos y manipulación del DOM.</li>
+                <li>Java – desarrollo orientado a objetos y aplicaciones robustas.</li>
+                <li>Interfaces gráficas – creación de GUIs con Swing.</li>
+                <li>Backend en Java – desarrollo con Servlets.</li>
+                <li>Frameworks – aplicaciones avanzadas con Spring Boot 3 y autenticación con Spring Security.</li>
+                <li>Node.js – desarrollo backend básico con Express.</li>
+                <li>HTML y CSS – maquetado semántico y diseño adaptable con Flexbox y Grid.</li>
+                <li>Base de datos – diseño e integración de sistemas con MySQL.</li>
+              </ul>
             </div>
 
-            <div className="proyectos_trabajados">Proyectos trabajados</div>
+            <div className="proyectos_trabajados animate__animated animate__fadeInUp" style={{ animationDelay: "0.7s" }}>Proyectos trabajados</div>
 
             <div className="contenedor_proyectos">
-
-              <div className="proyecto_uno">
+              <div className="proyecto_uno animate__animated animate__fadeInUp" style={{ animationDelay: "0.8s" }}>
                 <h2>Proyecto n° 1: Aplicación de gestión de turnos médicos</h2>
-                <p>Desarrollamos un aplicación encargada de la gestión de turnos y entrega de análisis médicos desarrollada
-                  en con C# en .NET y MySQL.
-                </p>
+                <p>Desarrollamos una aplicación encargada de la gestión de turnos y entrega de análisis médicos desarrollada en C# en .NET y MySQL.</p>
                 <div><img src={appDesktop} alt="appDesktop" /></div>
               </div>
 
-              <div className="proyecto_uno">
+              <div className="proyecto_uno animate__animated animate__fadeInUp" style={{ animationDelay: "0.9s" }}>
                 <h2>Proyecto n° 2: App de gestión para club deportivo</h2>
-                <p>Participé en el diseño de una aplicación de gestión de asociados y pagos para un club deportivo
-                  utilizando Kotlin, Sqlite y figma.
-                </p>
+                <p>Participé en el diseño de una aplicación de gestión de asociados y pagos para un club deportivo utilizando Kotlin, Sqlite y Figma.</p>
                 <div><img src={appMobile} alt="appMobile" /></div>
               </div>
 
-              <div className="proyecto_uno">
+              <div className="proyecto_uno animate__animated animate__fadeInUp" style={{ animationDelay: "1s" }}>
                 <h2>Proyecto n° 3: Aplicación Web para inmobiliaria</h2>
-                <p>Creamos la base de una aplicación web de creación y consulta de contratos de alquiler y gestión de
-                  citas con clientes utilizando Javascript, JSON, CSS y NodeJS.
-                </p>
+                <p>Creamos la base de una aplicación web de creación y consulta de contratos de alquiler y gestión de citas con clientes utilizando Javascript, JSON, CSS y NodeJS.</p>
                 <div><img src={appWeb} alt="appWeb" /></div>
               </div>
-
             </div>
 
-            <div className="Iconos_tecnologias">
+            <div className="Iconos_tecnologias animate__animated animate__fadeInUp" style={{ animationDelay: "1.1s" }}>
               <img src={html} alt="HTML" />
               <img src={css} alt="CSS" />
               <img src={js} alt="JavaScript" />
               <img src={react} alt="React" />
               <img src={sql} alt="SQL" />
-              <img src={JavaImagen} alt="java"/>
-              <img src={SpringBootImagen} alt='Spring Boot'/>
+              <img src={JavaImagen} alt="java" />
+              <img src={SpringBootImagen} alt="Spring Boot" />
             </div>
           </main>
 
-          <footer className="footer">
-            <div>© 2025 Alejandro [Tu Apellido]. Todos los derechos reservados</div>
+          <footer className="footer animate__animated animate__fadeInUp" style={{ animationDelay: "1.2s" }}>
+            <div>© 2025 Alejandro Cubas. Todos los derechos reservados</div>
           </footer>
         </div>
-
       </div>
-
     </>
   );
 }

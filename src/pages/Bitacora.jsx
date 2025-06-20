@@ -2,10 +2,10 @@ import '../styles/Bitacora.css';
 
 function Bitacora() {
   return (
-    <div className="bitacora">
-      <h2>Bitácora de Trabajo - Grupo 7</h2>
+    <div className="bitacora animate__animated animate__fadeIn" style={{ animationDelay: '0.1s' }}>
+      <h2 className="animate__animated animate__fadeInDown" style={{ animationDelay: '0.2s' }}>Bitácora de Trabajo - Grupo 7</h2>
 
-      <section>
+      <section className="animate__animated animate__fadeInUp" style={{ animationDelay: '0.3s' }}>
         <h3>Integrantes:</h3>
         <ul>
           <li>Sabrina Choque</li>
@@ -15,7 +15,7 @@ function Bitacora() {
         </ul>
       </section>
 
-      <section>
+      <section className="animate__animated animate__fadeInUp" style={{ animationDelay: '0.4s' }}>
         <h3>Organización y Metodología</h3>
         <p>
          Utilizamos una metodología colaborativa. Dividimos las tareas por secciones:
@@ -28,7 +28,7 @@ function Bitacora() {
         </p>
       </section>
 
-     <section>
+     <section className="animate__animated animate__fadeInUp" style={{ animationDelay: '0.5s' }}>
   <h3>Aportes individuales</h3>
   <p>
     <strong>Sabrina:</strong> Se encargó de la estructura principal del proyecto en React, incluyendo:
@@ -48,13 +48,15 @@ function Bitacora() {
   </p>
    <p>
     <strong>Federico:</strong> Se encargó del desarrollo de su sección personal en <em>React</em>, incluyendo nombre, habilidades, proyectos y tecnologías con íconos importados correctamente desde la carpeta de <em>assets</em>. Utilizó Flexbox y animaciones CSS para presentar la información de forma ordenada y responsiva. Agregó su ruta a los archivos <code>App.jsx</code> y <code>Sidebar.jsx</code>, y colaboró en la página de videojuegos integrando sus títulos favoritos al archivo <code>data.json</code>. Tuvo que resolver problemas relacionados con la visualización de íconos en producción <em>(Vercel)</em> debido a rutas estáticas incorrectas, y ajustó el estilo del header para evitar estilos globales heredados.
+    <br /><br />
+    En la segunda etapa del trabajo, Federico se encargó de aplicar animaciones suaves con <em>Animate.css</em> en todas las páginas del proyecto, incluyendo las vistas personales, la página de inicio, la bitácora y la sección de videojuegos. Reemplazó los retrasos estándar por valores personalizados para lograr una entrada progresiva más fluida. También mejoró visualmente el <em>Sidebar</em>, adaptándolo a distintos tamaños de pantalla, rediseñó la página de inicio con efectos <em>hover</em> y animaciones en las tarjetas de integrantes, y reestilizó por completo la página de videojuegos con tarjetas modernas, sombras, transiciones suaves y diseño responsivo.
   </p>
    <p>
     <strong>Alejandro:</strong> Se encargó del diseño de la parte personal. Aunque fue bastante complicado en un principio, estudiando las versiones de sus compañeros junto con el material de consulta, pudo crear una base en la cual poder poner los detalles que consideró propios y los que le gustaron de otros lugares. Colaboró en el agregado de pequeños detalles estéticos de la sidebar al final del desarrollo previo a la entrega. Gracias a la colaboración de sus compañeros, pudo ocmprender y desarrollar una plantilla funcional a lo que se pedía, cosa que hubiera sido mucho más complicada estando solo.
   </p>
 </section>
 
-      <section>
+      <section className="animate__animated animate__fadeInUp" style={{ animationDelay: '0.6s' }}>
         <h3>Tecnologías utilizadas</h3>
         <ul>
           <li>React</li>
@@ -66,7 +68,7 @@ function Bitacora() {
         </ul>
       </section>
 
-      <section>
+      <section className="animate__animated animate__fadeInUp" style={{ animationDelay: '0.7s' }}>
   <h3>Reflexión del grupo</h3>
   <p>
     Este trabajo práctico nos permitió integrar los conocimientos de React y desarrollar un proyecto completo de manera colaborativa.  
