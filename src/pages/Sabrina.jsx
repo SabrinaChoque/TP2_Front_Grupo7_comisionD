@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/Sabrina.css';
+import '../styles/Habilidades.css'; 
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import js from '../assets/js.png';
@@ -84,6 +85,75 @@ function Sabrina() {
             <img src={react} alt="React" />
             <img src={github} alt="GitHub" />
           </div>
+
+                      <div className="skills">
+            <h1>Habilidades</h1>
+            <div className="skill-bar"> 
+
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    HTML <i className="fa-brands fa-html5"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="html" style={{ width: "90%" }} data-skill="90%"></span>
+                </div>
+              </div>
+                
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    CSS <i className="fa-brands fa-css3"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="css" style={{ width: "80%" }} data-skill="80%"></span>
+                </div>
+              </div>
+
+                            
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    JAVASCRIPT <i className="fa-brands fa-sql"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="javascript" style={{ width: "80%" }} data-skill="80%"></span>
+                </div>
+              </div>
+                
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    REACT <i className="fa-brands fa-javascript"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="react" style={{ width: "60%" }} data-skill="60%"></span>
+                </div>
+              </div>
+              
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    GITHUB <i className="fa-brands fa-python"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="github" style={{ width: "30%" }} data-skill="30%"></span>
+                </div>
+              </div>
+                
+
+
+            </div>
+          </div>
+
+
+
+
         </main>
 
         <footer className="sabrina-footer animate__animated animate__fadeInUp" style={{ animationDelay: "1.2s" }}>

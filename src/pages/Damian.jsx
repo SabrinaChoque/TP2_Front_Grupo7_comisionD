@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/Damian.css'; 
+import '../styles/Habilidades.css'; 
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import js from '../assets/js.png';
@@ -75,6 +76,102 @@ function Damian() {
           <img src={sql} alt="SQL" />
           <img src={looker} alt="Looker" />
         </div>
+
+
+      
+          <div className="skills">
+            <h1>Habilidades</h1>
+            <div className="skill-bar"> 
+
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    HTML <i className="fa-brands fa-html5"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="html" style={{ width: "90%" }} data-skill="90%"></span>
+                </div>
+              </div>
+                
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    CSS <i className="fa-brands fa-css3"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="css" style={{ width: "80%" }} data-skill="80%"></span>
+                </div>
+              </div>
+                
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    JAVASCRIPT <i className="fa-brands fa-javascript"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="javascript" style={{ width: "60%" }} data-skill="60%"></span>
+                </div>
+              </div>
+
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    REACT <i className="fa-brands fa-python"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="react" style={{ width: "40%" }} data-skill="40%"></span>
+                </div>
+              </div>
+              
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    PYTHON <i className="fa-brands fa-python"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="python" style={{ width: "30%" }} data-skill="30%"></span>
+                </div>
+              </div>
+                
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    SQL <i className="fa-brands fa-sql"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="sql" style={{ width: "80%" }} data-skill="80%"></span>
+                </div>
+              </div>
+
+
+              <div className="bar">
+                <div className="info">
+                  <span>
+                    LOOKER <i className="fa-brands fa-sql"></i>
+                  </span>
+                </div>
+                <div className="progress-line">
+                  <span className="looker" style={{ width: "55%" }} data-skill="55%"></span>
+                </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+
+ 
+
+
+
+        
       </main>
 
       <footer className="footer animate__animated animate__fadeInUp" style={{ animationDelay: "1.2s" }}>
