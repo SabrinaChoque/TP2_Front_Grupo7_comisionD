@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom';
 import '../styles/Sidebar.css';
+import logo from '../assets/logo.webp';
+
 
 
 function Sidebar() {
   return (
     <nav className="sidebar animate__animated animate__fadeInLeft">
-    <h2>Grupo 7</h2>
+     <img className='logo' src={logo} alt="logo" />
+
       <ul>
         <li><Link to="/">Inicio</Link></li>
         <li><Link to="/sabrina">Sabrina</Link></li>
