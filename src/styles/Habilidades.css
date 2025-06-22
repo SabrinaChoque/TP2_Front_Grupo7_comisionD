@@ -11,10 +11,6 @@
   font-family: Arial, sans-serif;
 }
 
-.skill-bar {
-  padding: 0;
-}
-
 .skill-bar .bar {
   margin: 25px 0;
   display: flex;
@@ -41,10 +37,21 @@
   left: 0;
   top: 0;
   height: 100%;
+  width: 100%; /* Necesario para usar scaleX */
   background: #ffbb00;
   border-radius: 10px;
-  transition: width 1s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
   z-index: 1;
+  animation: growBar 1s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+/* Animación genérica */
+@keyframes growBar {
+  to {
+    transform: scaleX(1); /* Este valor se sobrescribe por las clases scale-XX */
+  }
 }
 
 /* Mostrar el porcentaje encima */
@@ -61,6 +68,9 @@
   font-weight: bold;
   white-space: nowrap;
   z-index: 10;
+  opacity: 0;
+  animation: showLabel 0.5s ease forwards;
+  animation-delay: 1.5s;
 }
 
 /* Triángulo debajo del porcentaje */
@@ -75,4 +85,18 @@
   border-top: none;
   border-bottom-color: #504f4c;
   z-index: 5;
+  opacity: 0;
+  animation: showLabel 0.5s ease forwards;
+  animation-delay: 1.5s;
 }
+
+/* Animación para mostrar los labels */
+@keyframes showLabel {
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
