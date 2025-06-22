@@ -1,7 +1,19 @@
+/* ANIMACIÓN FADE UP */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* CONTENEDOR PRINCIPAL */
 .inicio {
   padding: 2rem 1rem;
-  background: linear-gradient(to bottom right, #eaf1f8, #ffffff);
+  background: linear-gradient(to bottom right, #4f46e5, #3b0764);
   min-height: 100vh;
   text-align: center;
   max-width: 1100px;
@@ -13,24 +25,27 @@
 .inicio h1 {
   font-size: 2.8rem;
   margin-bottom: 1rem;
-  color: #1e2a38;
+  color: #000000;
   font-family: 'Audiowide', sans-serif;
   letter-spacing: 1px;
+  text-shadow: 3px 3px 8px rgba(41, 248, 255, 0.904);
 }
 
 .inicio p {
   font-size: 1.8rem;
   max-width: 720px;
   margin: 0 auto 2rem auto;
-  color: #444;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 .inicio h2 {
   margin-top: 2rem;
-  color: #1e2a38;
+  color: #030303;
   font-size: 1.9rem;
   margin-bottom: 1.2rem;
   font-family: 'Audiowide', sans-serif;
+  text-shadow: 3px 3px 8px rgba(41, 248, 255, 0.904);
 }
 
 /* TARJETAS CONTENEDOR */
@@ -54,6 +69,15 @@
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   position: relative;
   z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* ANIMACIÓN */
+  animation: fadeUp 0.6s ease forwards;
+  opacity: 0;
+  animation-delay: var(--delay, 0s);
 }
 
 .tarjeta:hover {
@@ -115,25 +139,25 @@
   color: #1e2a38;
   font-family: 'Audiowide', sans-serif;
   letter-spacing: 0.5px;
+  text-shadow: 1px 1px 3px rgba(118, 216, 255, 0.6);
 }
 
 .tarjeta p {
   font-size: 1.5rem;
-  color: #333; /* más oscuro */
+  color: #333;
   margin: 0.8rem 0;
   line-height: 1.6;
+  text-shadow: 1px 1px 3px rgba(118, 216, 255, 0.6);
 }
 
 .tarjeta a {
-  display: inline-block;
-  margin-top: 0.6rem;
+  margin-top: auto;
   color: #0077cc;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.5rem; /* 👈 Aumentá este valor */
+  font-size: 1.5rem;
   transition: color 0.2s ease;
 }
-
 
 .tarjeta a:hover {
   color: #005999;
