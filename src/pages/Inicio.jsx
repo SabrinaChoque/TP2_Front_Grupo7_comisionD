@@ -97,24 +97,20 @@ function Inicio() {
           <div
             className="tarjeta"
             key={integrante.id}
-            style={{ "--delay": `${index * 0.2}s` }}
+            style={{ '--delay': `${index * 0.2}s` }}
           >
             <div className="portada">
               <img src={integrante.banner} alt="Banner" />
 
               <div className="corazon-container">
                 <div
-                  className="corazon"
+                  className={`corazon ${votos[integrante.id] ? 'activo' : ''}`}
                   onClick={() => handleLike(integrante.id)}
                   title={votos[integrante.id] ? "Quitar me gusta" : "Dale me gusta"}
-                  style={{
-                    backgroundColor: votos[integrante.id] ? '#ffe6e6' : 'white',
-                    cursor: 'pointer'
-                  }}
                 >
                   ❤️ {likes[integrante.id] || 0}
                 </div>
-                <p style={{ fontSize: '0.75rem', marginTop: '4px' }}>
+                <p className="texto-like">
                   {votos[integrante.id] ? "Quitar like" : "Dar like"}
                 </p>
               </div>
@@ -136,9 +132,4 @@ function Inicio() {
 }
 
 export default Inicio;
-
-
-
-
-
 
