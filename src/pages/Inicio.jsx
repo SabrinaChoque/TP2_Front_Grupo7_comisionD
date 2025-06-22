@@ -15,7 +15,7 @@ function Inicio() {
       ruta: '/sabrina',
       imagen: sabriImg,
       banner: banner,
-      descripcion: 'Mamá, futura desarrolladora y amante del diseño y los videojuegos. En busca de mi primer gran desafío en IT.'
+      descripcion: 'Mamá, futura desarrolladora y amante del diseño y los videojuegos.En busca de mi primer gran desafío en IT.'
     },
     {
       id: 'damian',
