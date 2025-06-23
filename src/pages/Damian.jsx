@@ -23,7 +23,8 @@ function Damian() {
         </div>
       </header>
 
-      <main className="animate__animated animate__fadeIn" style={{ animationDelay: "0.2s" }}>
+      <main className="damian-main animate__animated animate__fadeIn" style={{ animationDelay: "0.2s" }}>
+        <div className="damian-contenedor ">
         <div className="titulo animate__animated animate__fadeInUp" style={{ animationDelay: "0.3s" }}><h2>Sobre mí</h2></div>
 
         <div className="damian-sobre-mi animate__animated animate__fadeInUp" style={{ animationDelay: "0.4s" }}>
@@ -171,7 +172,7 @@ function Damian() {
 
 
 
-        
+        </div>
       </main>
 
       <footer className="footer animate__animated animate__fadeInUp" style={{ animationDelay: "1.2s" }}>
