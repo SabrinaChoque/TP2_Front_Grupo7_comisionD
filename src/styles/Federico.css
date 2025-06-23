@@ -25,6 +25,7 @@
 .sobre-mi {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1.5rem;
   background-color: #ffffffd8;
   padding: 1.5rem;
@@ -34,15 +35,18 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .avatar {
-  image-rendering: auto;
   width: 200px;
   height: 200px;
   border-radius: 30%;
   object-fit: cover;
   border: 3px solid #4503be;
+  margin: 0;
+  flex-shrink: 0;
 }
 
 .sobre-mi div {
