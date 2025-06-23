@@ -61,6 +61,12 @@ function Inicio() {
     };
     setLikes(nuevosLikes);
     localStorage.setItem(`likes-${id}`, nuevosLikes[id]);
+
+    const corazonEl = document.getElementById(`corazon-${id}`);
+    if (corazonEl) {
+      corazonEl.classList.add("clicked");
+      setTimeout(() => corazonEl.classList.remove("clicked"), 300);
+    }
   };
 
   const totalCorazones = Object.values(likes).reduce((acc, val) => acc + val, 0);
@@ -84,6 +90,7 @@ function Inicio() {
               <img src={integrante.banner} alt="Banner" />
               <div className="corazon-container">
                 <div
+                  id={`corazon-${integrante.id}`}
                   className="corazon activo"
                   onClick={() => handleLike(integrante.id)}
                   title="Dale un corazón"
