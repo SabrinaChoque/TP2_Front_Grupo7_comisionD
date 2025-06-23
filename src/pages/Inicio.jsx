@@ -15,7 +15,7 @@ function Inicio() {
       ruta: '/sabrina',
       imagen: sabriImg,
       banner: banner,
-      descripcion: 'Mamá, futura desarrolladora y amante del diseño y los videojuegos.En busca de mi primer gran desafío en IT.'
+      descripcion: 'Mamá, futura desarrolladora y amante del diseño y los videojuegos. En busca de mi primer gran desafío en IT.'
     },
     {
       id: 'damian',
@@ -44,45 +44,26 @@ function Inicio() {
   ];
 
   const [likes, setLikes] = useState({});
-  const [votos, setVotos] = useState({});
 
   useEffect(() => {
     const storedLikes = {};
-    const storedVotos = {};
-
     integrantes.forEach(({ id }) => {
       const savedLikes = localStorage.getItem(`likes-${id}`);
-      const savedVoto = localStorage.getItem(`voto-${id}`);
       storedLikes[id] = savedLikes ? parseInt(savedLikes) : 0;
-      storedVotos[id] = savedVoto === 'true';
     });
-
     setLikes(storedLikes);
-    setVotos(storedVotos);
   }, []);
 
   const handleLike = (id) => {
-    const yaVoto = votos[id];
-
     const nuevosLikes = {
       ...likes,
-      [id]: yaVoto ? likes[id] - 1 : (likes[id] || 0) + 1,
+      [id]: (likes[id] || 0) + 1,
     };
-
-    const nuevosVotos = {
-      ...votos,
-      [id]: !yaVoto,
-    };
-
     setLikes(nuevosLikes);
-    setVotos(nuevosVotos);
     localStorage.setItem(`likes-${id}`, nuevosLikes[id]);
-    if (nuevosVotos[id]) {
-      localStorage.setItem(`voto-${id}`, 'true');
-    } else {
-      localStorage.removeItem(`voto-${id}`);
-    }
   };
+
+  const totalCorazones = Object.values(likes).reduce((acc, val) => acc + val, 0);
 
   return (
     <section className="inicio animate__animated animate__fadeIn">
@@ -101,18 +82,15 @@ function Inicio() {
           >
             <div className="portada">
               <img src={integrante.banner} alt="Banner" />
-
               <div className="corazon-container">
                 <div
-                  className={`corazon ${votos[integrante.id] ? 'activo' : ''}`}
+                  className="corazon activo"
                   onClick={() => handleLike(integrante.id)}
-                  title={votos[integrante.id] ? "Quitar me gusta" : "Dale me gusta"}
+                  title="Dale un corazón"
                 >
                   ❤️ {likes[integrante.id] || 0}
                 </div>
-                <p className="texto-like">
-                  {votos[integrante.id] ? "Quitar like" : "Dar like"}
-                </p>
+                <p className="texto-like">Dar corazón</p>
               </div>
             </div>
 
@@ -127,9 +105,12 @@ function Inicio() {
           </div>
         ))}
       </div>
+
+      <h3 className="total-corazones">
+        ❤️ Se dieron {totalCorazones} corazones para el grupo!
+      </h3>
     </section>
   );
 }
 
 export default Inicio;
-

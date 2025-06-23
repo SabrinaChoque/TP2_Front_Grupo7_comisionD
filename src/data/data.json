@@ -4,137 +4,172 @@
       "titulo": "Legend of Mana",
       "genero": "RPG",
       "anio": 1999,
-      "descripcion": "Juego de rol con gráficos tipo acuarela y sistema de creación de mundo."
+      "descripcion": "Juego de rol con gráficos tipo acuarela y sistema de creación de mundo.",
+      "imagen": "legendOfMana.gif",
+      "calificacion": 7
     },
     {
       "titulo": "Little Nightmares",
       "genero": "Plataformas, Terror",
       "anio": 2017,
-      "descripcion": "Una historia oscura protagonizada por Six, una niña atrapada en un lugar siniestro."
+      "descripcion": "Una historia oscura protagonizada por Six, una niña atrapada en un lugar siniestro.",
+      "imagen": "littleNightmares.gif",
+      "calificacion": 7
     },
     {
       "titulo": "Bendy and the Ink Machine",
       "genero": "Terror, Puzzle",
       "anio": 2017,
-      "descripcion": "Un juego con estética de dibujos animados antiguos mezclado con horror psicológico."
+      "descripcion": "Un juego con estética de dibujos animados antiguos mezclado con horror psicológico.",
+      "imagen": "bendy.gif",
+      "calificacion": 8
     },
     {
       "titulo": "Overwatch",
       "genero": "Shooter, Online",
       "anio": 2016,
-      "descripcion": "Shooter por equipos con héroes únicos y enfoque en el juego en equipo."
+      "descripcion": "Shooter por equipos con héroes únicos y enfoque en el juego en equipo.",
+      "imagen": "overwatch.gif",
+      "calificacion": 8
     },
     {
       "titulo": "God of War",
       "genero": "Acción, Aventura",
       "anio": 2018,
-      "descripcion": "Kratos viaja con su hijo Atreus en una historia épica basada en la mitología nórdica."
+      "descripcion": "Kratos viaja con su hijo Atreus en una historia épica basada en la mitología nórdica.",
+      "imagen": "godOfWar.gif",
+      "calificacion": 9
     }
   ],
-
   "videojuegosDeDamian": [
     {
       "titulo": "Mortal Kombat Ultimate",
       "plataforma": "Sega",
       "genero": "Lucha",
       "anio": 1995,
-      "descripcion": "La versión definitiva del clásico juego de lucha con personajes icónicos y fatalities."
+      "descripcion": "La versión definitiva del clásico juego de lucha con personajes icónicos y fatalities.",
+      "imagen": "mortalKombat.gif",
+      "calificacion": 8
     },
     {
       "titulo": "Super Smash Bros",
       "plataforma": "Nintendo 64",
       "genero": "Lucha, Party",
       "anio": 1999,
-      "descripcion": "Juego de lucha con personajes de Nintendo enfrentándose en diferentes escenarios."
+      "descripcion": "Juego de lucha con personajes de Nintendo enfrentándose en diferentes escenarios.",
+      "imagen": "superSmashBros.gif",
+      "calificacion": 9
     },
     {
       "titulo": "Counter Strike 1.6",
       "plataforma": "PC",
       "genero": "Shooter, Táctico",
       "anio": 2003,
-      "descripcion": "Juego de disparos en primera persona con modos de juego competitivos entre terroristas y antiterroristas."
+      "descripcion": "Juego de disparos en primera persona con modos de juego competitivos entre terroristas y antiterroristas.",
+      "imagen": "cs16.gif",
+      "calificacion": 8
     },
     {
       "titulo": "PES",
       "plataforma": "Multiplataforma",
       "genero": "Deportes, Fútbol",
       "anio": "varios",
-      "descripcion": "Popular juego de fútbol con licencias oficiales y modos de juego variados."
+      "descripcion": "Popular juego de fútbol con licencias oficiales y modos de juego variados.",
+      "imagen": "pes.gif",
+      "calificacion": 7
     },
     {
       "titulo": "Call of Duty: Modern Warfare",
       "plataforma": "Multiplataforma",
       "genero": "Shooter, Acción",
       "anio": 2019,
-      "descripcion": "Shooter en primera persona con campañas intensas y modos multijugador competitivos."
+      "descripcion": "Shooter en primera persona con campañas intensas y modos multijugador competitivos.",
+      "imagen": "codModernWarfare.gif",
+      "calificacion": 8
     }
   ],
-
   "videojuegosDeFederico": [
     {
       "titulo": "League of Legends",
       "genero": "MOBA",
       "anio": 2009,
-      "descripcion": "Juego competitivo por equipos en línea con un fuerte enfoque estratégico y táctico."
+      "descripcion": "Juego competitivo por equipos en línea con un fuerte enfoque estratégico y táctico.",
+      "imagen": "leagueOfLegends.gif",
+      "calificacion": 7
     },
     {
       "titulo": "Red Dead Redemption 2",
       "genero": "Acción, Mundo abierto",
       "anio": 2018,
-      "descripcion": "Una experiencia inmersiva del Lejano Oeste con narrativa y detalles impresionantes."
+      "descripcion": "Una experiencia inmersiva del Lejano Oeste con narrativa y detalles impresionantes.",
+      "imagen": "redDead2.gif",
+      "calificacion": 9
     },
     {
       "titulo": "The Witcher 3: Wild Hunt",
       "genero": "RPG, Aventura",
       "anio": 2015,
-      "descripcion": "Un RPG de mundo abierto con narrativa profunda, misiones secundarias ricas y combates intensos."
+      "descripcion": "Un RPG de mundo abierto con narrativa profunda, misiones secundarias ricas y combates intensos.",
+      "imagen": "witcher3.gif",
+      "calificacion": 9
     },
     {
       "titulo": "PUBG (PlayerUnknown's Battlegrounds)",
       "genero": "Battle Royale, Shooter",
       "anio": 2017,
-      "descripcion": "Pionero del género Battle Royale, combina acción táctica y supervivencia multijugador."
+      "descripcion": "Pionero del género Battle Royale, combina acción táctica y supervivencia multijugador.",
+      "imagen": "pubg.gif",
+      "calificacion": 7
     },
     {
       "titulo": "Kingdom Come: Deliverance",
       "genero": "RPG, Realismo histórico",
       "anio": 2018,
-      "descripcion": "RPG medieval con enfoque realista, sin magia, basado en eventos históricos y combate auténtico."
+      "descripcion": "RPG medieval con enfoque realista, sin magia, basado en eventos históricos y combate auténtico.",
+      "imagen": "kingdomCome.gif",
+      "calificacion": 8
     }
   ],
-
   "videojuegosDeAlejandro": [
     {
       "titulo": "Halo: Combat Evolved",
       "genero": "Shooter, Ciencia ficción",
       "anio": 2001,
-      "descripcion": "El icónico comienzo de la saga Halo, con acción táctica, narrativa épica y combate espacial."
+      "descripcion": "El icónico comienzo de la saga Halo, con acción táctica, narrativa épica y combate espacial.",
+      "imagen": "halo.gif",
+      "calificacion": 8
     },
     {
       "titulo": "Age of Empires II",
       "genero": "Estrategia en tiempo real",
       "anio": 1999,
-      "descripcion": "Clásico de estrategia con civilizaciones históricas, batallas y desarrollo económico."
+      "descripcion": "Clásico de estrategia con civilizaciones históricas, batallas y desarrollo económico.",
+      "imagen": "ageOfEmpires2.gif",
+      "calificacion": 9
     },
     {
       "titulo": "Resident Evil 2 Remake",
       "genero": "Terror, Supervivencia",
       "anio": 2019,
-      "descripcion": "Reimaginación moderna del clásico survival horror, con gráficos actualizados y atmósfera intensa."
+      "descripcion": "Reimaginación moderna del clásico survival horror, con gráficos actualizados y atmósfera intensa.",
+      "imagen": "residentEvil2.gif",
+      "calificacion": 8
     },
     {
       "titulo": "Dark Souls III",
       "genero": "Acción, RPG",
       "anio": 2016,
-      "descripcion": "Desafiante RPG con combates exigentes, diseño oscuro y una narrativa críptica."
+      "descripcion": "Desafiante RPG con combates exigentes, diseño oscuro y una narrativa críptica.",
+      "imagen": "darkSouls3.gif",
+      "calificacion": 8
     },
     {
       "titulo": "Metal Gear Solid 3: Snake Eater",
       "genero": "Sigilo, Acción",
       "anio": 2004,
-      "descripcion": "Misión de infiltración en la Guerra Fría con mecánicas de supervivencia y narrativa cinematográfica."
+      "descripcion": "Misión de infiltración en la Guerra Fría con mecánicas de supervivencia y narrativa cinematográfica.",
+      "imagen": "mgs3.gif",
+      "calificacion": 9
     }
   ]
-
-
 }

@@ -119,12 +119,20 @@
 }
 
 .corazon.activo {
-  background-color: #ffe6e6;
+  background-color: #ffffff;
 }
 
 .texto-like {
   font-size: 0.75rem;
   margin-top: 4px;
+}
+.total-corazones {
+   font-size: 1.8rem;
+  max-width: 720px;
+  margin: 2rem auto 0 auto;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  font-family: 'Genos', sans-serif;
 }
 
 /* AVATAR */
