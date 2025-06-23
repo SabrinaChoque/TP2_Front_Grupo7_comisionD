@@ -5,6 +5,15 @@ body {
   color: #333;
 }
 
+.damian-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff; /* o el color que quieras */
+  position: relative;
+  z-index: 1;
+}
+
 .proyecto_uno img {
   width: 100%;
   max-width: 500px;
