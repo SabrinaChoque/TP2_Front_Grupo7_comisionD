@@ -193,3 +193,39 @@
     width: 90%;
   }
 }
+
+.corazon {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 1.1rem;
+  background: white;
+  padding: 2px 8px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  user-select: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.corazon:hover {
+  transform: scale(1.2);
+  background-color: #ffebee;
+  box-shadow: 0 0 10px rgba(255, 0, 100, 0.3);
+}
+
+.corazon.clicked {
+  animation: pop 0.3s ease;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4) rotate(-10deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
