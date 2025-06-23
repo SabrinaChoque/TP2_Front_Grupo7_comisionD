@@ -62,7 +62,7 @@ const Federico = () => {
       <main>
         <h2 className="animate__animated animate__fadeInUp" style={{ animationDelay: "0.3s" }}>Sobre mí</h2>
         <section className="sobre-mi animate__animated animate__fadeInUp" style={{ animationDelay: "0.4s" }}>
-          <img src={avatarFede} alt="Avatar de Federico" className="avatar" />
+          <img src={avatarFede} alt="Avatar de Federico" className="avatar-fede" />
           <div>
             <p>
               Soy Federico Castro, desarrollador en formación con un gran interés en el área de datos y desarrollo backend.
