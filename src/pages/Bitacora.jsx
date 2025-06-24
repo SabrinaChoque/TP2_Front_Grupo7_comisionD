@@ -59,6 +59,7 @@ Durante las últimas etapas del proyecto, Sabrina implementó la funcionalidad d
    <p>
     <strong>Alejandro:</strong> Se encargó del diseño de la parte personal. Aunque fue bastante complicado en un principio, estudiando las versiones de sus compañeros junto con el material de consulta, pudo crear una base en la cual poder poner los detalles que consideró propios y los que le gustaron de otros lugares. Colaboró en el agregado de pequeños detalles estéticos de la sidebar al final del desarrollo previo a la entrega. Gracias a la colaboración de sus compañeros, pudo ocmprender y desarrollar una plantilla funcional a lo que se pedía, cosa que hubiera sido mucho más complicada estando solo.
   </p>
+  <p>En la segunda parte se encargó de agregar la busqueda por nombre y el filtro por género en la parte de Videojuegos. También colaboró en el retoque de las vistas de las páginas personales y la página de inicio aunque en menor medida. Para el filtro por género optó por un sistema de checkboxes que se mantiene oculto hasta seleccionar el ícono del mando para evitar distracciones. De igual manera la entrada de texto para búsqueda se mantiene oculta hasta que se seleccione la lupa. </p>
 </section>
 
       <section className="animate__animated animate__fadeInUp" style={{ animationDelay: '0.6s' }}>
