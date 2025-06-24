@@ -32,7 +32,7 @@ function Alejandro() {
           <main>
             <h2 className="animate__animated animate__fadeInUp" style={{ animationDelay: "0.3s" }}>Sobre mí</h2>
             <section className="sobre-Alejandro animate__animated animate__fadeInUp" style={{ animationDelay: "0.4s" }}>
-              <img src={fotoAlejandro} alt="Imagen de Alejandro" className="avatar" />
+              <img src={fotoAlejandro} alt="Imagen de Alejandro" className="avatar-ale" />
               <div>
                 <p>
                   Me llamo Alejandro Cubas, estoy estudiando Desarrollo de Software, interesado en la rama del Backend particularmente con Java.
@@ -102,7 +102,7 @@ function Alejandro() {
                   </span>
                 </div>
                 <div className="progress-line">
-                  <span className="html" style={{ width: "90%" }} data-skill="90%"></span>
+                  <span className="html" style={{ width: "60%" }} data-skill="60%"></span>
                 </div>
               </div>
                 
@@ -113,7 +113,7 @@ function Alejandro() {
                   </span>
                 </div>
                 <div className="progress-line">
-                  <span className="css" style={{ width: "80%" }} data-skill="80%"></span>
+                  <span className="css" style={{ width: "50%" }} data-skill="50%"></span>
                 </div>
               </div>
                 
@@ -168,7 +168,7 @@ function Alejandro() {
                   </span>
                 </div>
                 <div className="progress-line">
-                  <span className="springboot" style={{ width: "50%" }} data-skill="50%"></span>
+                  <span className="springboot" style={{ width: "60%" }} data-skill="60%"></span>
                 </div>
               </div>
 
