@@ -17,7 +17,7 @@ function App() {
     <Router>
       <div className="contenedor-principal" style={{ display: 'flex' }}>
         <Sidebar />
-        <main className="contenido-principal" style={{ flex: 1, padding: '1rem' }}>
+        <main className="contenido-principal" style={{ flex: 1, padding: '2rem' }}>
           <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/sabrina" element={<Sabrina />} />

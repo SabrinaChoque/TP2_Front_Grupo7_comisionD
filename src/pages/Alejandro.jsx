@@ -32,7 +32,7 @@ function Alejandro() {
           <main>
             <h2 className="animate__animated animate__fadeInUp" style={{ animationDelay: "0.3s" }}>Sobre mí</h2>
             <section className="sobre-Alejandro animate__animated animate__fadeInUp" style={{ animationDelay: "0.4s" }}>
-              <img src={fotoAlejandro} alt="Imagen de Alejandro" className="avatar" />
+              <img src={fotoAlejandro} alt="Imagen de Alejandro" className="avatar-ale" />
               <div>
                 <p>
                   Me llamo Alejandro Cubas, estoy estudiando Desarrollo de Software, interesado en la rama del Backend particularmente con Java.
